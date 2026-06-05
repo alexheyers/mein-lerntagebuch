@@ -5,12 +5,15 @@ Sieben Tage, sieben Einträge, acht Commits. Zeit für einen ehrlichen Blick zur
 ## Die drei größten Learnings
 
 ### 1. Git ist ein Sicherheitsnetz, kein Pflichtprogramm
+
 Der Repo-Crash an Tag 1 hat mehr gelehrt als jedes Tutorial: `git reset --hard` hat in zwei Sekunden gerettet, was sonst Tage gekostet hätte. Seitdem committe ich **vor** jeder riskanten Aktion, nicht danach.
 
 ### 2. Spezifikation schlägt Intuition
+
 Ob "sichtbare Iteration" (Tag 2), die Gewinnerseiten-Methode (Tag 3) oder durchgerechnete Karriere-Entscheidungen (Tag 5): Die Woche hatte ein Muster. Vage Anforderungen erzeugen vage Ergebnisse — präzise Kriterien erzeugen brauchbare.
 
 ### 3. Architektur-Denken ist übertragbar
+
 Das Sub-Agenten-Pattern von Tag 6 (unprivilegierter Prozess liefert, privilegierter Prozess schreibt) ist dasselbe Prinzip wie Separation of Concerns in klassischer Software. Wer ohne Code-Hintergrund startet, lernt diese Muster trotzdem — nur eben über die Praxis statt über die Theorie.
 
 ## Was war schwer?
@@ -21,7 +24,7 @@ Das Sub-Agenten-Pattern von Tag 6 (unprivilegierter Prozess liefert, privilegier
 ## Zahlen der Woche
 
 | Metrik | Wert |
-|--------|------|
+| -------- | ------ |
 | Einträge | 7 |
 | Commits | 8 |
 | Gerettete Repos | 1 |

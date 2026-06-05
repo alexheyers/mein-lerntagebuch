@@ -20,6 +20,6 @@ brew install zsh-syntax-highlighting zsh-autosuggestions
 # + jeweils eine source-Zeile in ~/.zshrc
 ```
 
-2. Die Hacking-Idee sauber durchgerechnet statt impulsiv entschieden: Zertifikatskosten, Markteinstieg, Zeithorizont — gegen meine reale Situation (Runway, Familie). Ergebnis: verworfen. Der Bootcamp-Pfad mit Jobziel bleibt Priorität.
+1. Die Hacking-Idee sauber durchgerechnet statt impulsiv entschieden: Zertifikatskosten, Markteinstieg, Zeithorizont — gegen meine reale Situation (Runway, Familie). Ergebnis: verworfen. Der Bootcamp-Pfad mit Jobziel bleibt Priorität.
 
 **Merksatz des Tages:** Werkzeug einrichten ist keine Prokrastination — wenn es Fehler verhindert. Und: Entscheidungen rechnet man durch, man fühlt sie nicht nur.

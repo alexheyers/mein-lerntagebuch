@@ -1,0 +1,13 @@
+title: Mein Lerntagebuch
+description: 7 Tage Vibe Coding Bootcamp — dokumentiert in Git. Learning in Public von Alex Heyers.
+lang: de
+theme: jekyll-theme-cayman
+
+# Wandelt relative .md-Links (z.B. tag1.md) automatisch in .html-Links um,
+# damit die Navigation auf GitHub Pages genauso funktioniert wie im Repo.
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
