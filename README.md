@@ -15,7 +15,7 @@ Ein Commit pro Tag. Ein Feature-Branch. Ein Pull Request. So wie man es im echte
 ## Struktur
 
 | Datei | Datum | Thema |
-|-------|-------|-------|
+| ------- | ------- | ------- |
 | [tag1.md](tag1.md) | 26.05.2026 | Der Tag, an dem ein Agent mein Repo zerlegt hat — und `git reset --hard` mich gerettet hat |
 | [tag2.md](tag2.md) | 28.05.2026 | Showcase-Rebuild: Iteration muss sichtbar sein |
 | [tag3.md](tag3.md) | 01.06.2026 | Die Gewinnerseite — Qualität entsteht durch Vergleichen |

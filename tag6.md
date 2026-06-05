@@ -12,7 +12,7 @@ Ein unerwartetes technisches: Die Sub-Agenten, die die Design-Varianten parallel
 
 Architektur-Umbau im Workflow: Die Agenten geben ihr fertiges HTML **als Rückgabewert** zurück, und der Haupt-Prozess (der Schreibrechte hat) schreibt die Dateien auf die Festplatte.
 
-```
+```text
 Vorher:  Agent baut → Agent schreibt Datei ❌
 Nachher: Agent baut → gibt HTML zurück → Hauptprozess schreibt ✅
 ```

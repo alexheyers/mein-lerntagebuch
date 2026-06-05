@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  markdown-lint:
+    name: Markdown-Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Markdown-Dateien linten
+        run: npx markdownlint-cli2 "**/*.md"
+
+  struktur-check:
+    name: Tagebuch-Struktur prüfen
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: README und tag1–tag7 müssen existieren
+        run: |
+          fehler=0
+          for datei in README.md tag1.md tag2.md tag3.md tag4.md tag5.md tag6.md tag7.md; do
+            if [ ! -f "$datei" ]; then
+              echo "::error::Pflichtdatei fehlt: $datei"
+              fehler=1
+            fi
+          done
+          exit $fehler
+
+      - name: Jeder Tageseintrag braucht die drei Leitfragen
+        run: |
+          fehler=0
+          for datei in tag1.md tag2.md tag3.md tag4.md tag5.md tag6.md tag7.md; do
+            for frage in "Was habe ich gelernt" "Welches Problem hatte ich" "Wie habe ich es gelöst"; do
+              if ! grep -q "$frage" "$datei"; then
+                echo "::error file=$datei::Leitfrage fehlt: $frage"
+                fehler=1
+              fi
+            done
+          done
+          exit $fehler
